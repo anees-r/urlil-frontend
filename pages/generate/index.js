@@ -20,11 +20,6 @@ const Generate = () => {
       )}
 
       {isGenerated && <GenerationSuccess finalUrl={finalUrl} />}
-
-      {/* <div className="flex">
-        <Image alt="" src={CopyIconG} height={40} width={40} />
-        <Image alt="" src={CopiedIconW} height={40} width={40} />
-      </div> */}
     </>
   );
 };

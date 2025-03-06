@@ -35,7 +35,7 @@ const RedirectToUrl = () => {
     if (!url) return;
 
     // Ensure the URL starts with http:// or https://
-    if (!/^https?:\/\//i.test(shorturl)) {
+    if (!/^https?:\/\//i.test(url)) {
       url = "https://" + url;
     }
 

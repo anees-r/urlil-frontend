@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "both": "concurrently \"npm run dev\" \"cd ../urlil-backend && npm run start:dev\""
   },
   "dependencies": {
     "react": "^19.0.0",
